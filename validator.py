@@ -6,3 +6,4 @@ def is_valid_address(address):
     # Simple check: must contain a street name and number 
     pattern = r'^[A-Za-zÁÉÍÓÚáéíóúÑñ\s\.,\-]+ \d+$'
     return bool(re.match(pattern, address.strip()))
+#Cambios para probar
